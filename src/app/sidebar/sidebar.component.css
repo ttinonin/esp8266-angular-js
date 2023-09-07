@@ -1,3 +1,7 @@
+.sidemenu {
+    width: 280px;
+}
+
 .destaca:hover {
     background-color: #D2F4EA;
 }
@@ -7,4 +11,10 @@ li .link-body-emphasis {
 }
 li .link-body-emphasis:hover {
     background-color: #D2F4EA;
+}
+
+@media screen and (max-width: 980px) {
+    .sidemenu {
+        width: 100%;
+    }
 }
