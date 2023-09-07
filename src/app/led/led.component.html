@@ -1,0 +1,11 @@
+<h2>Controlador de LED</h2>
+
+<p>Status: {{ status }}</p>
+
+<button (click)="setStatus('LIGADO')" class="btn btn-primary me-2">Ligar LED</button>
+<button (click)="setStatus('DESLIGADO')" class="btn btn-secondary">Desligar LED</button>
+
+<p class="mt-2">Especificações técnicas:</p>
+<ul>
+    <li>Pino OUTPUT: 2 (D4)</li>
+</ul>
