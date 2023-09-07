@@ -1,0 +1,10 @@
+.destaca:hover {
+    background-color: #D2F4EA;
+}
+
+li .link-body-emphasis {
+    padding: 5px;
+}
+li .link-body-emphasis:hover {
+    background-color: #D2F4EA;
+}
